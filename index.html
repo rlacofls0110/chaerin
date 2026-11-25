@@ -253,6 +253,45 @@ footer p{margin:2px 0}
   .grid{gap:12px}.info h3{font-size:16px}
   .look .copy{padding:30px 24px}
 }
+
+/* ===== 모바일 보정 ===== */
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:6px;white-space:nowrap}
+.price s{margin-right:0}
+@media (max-width:900px){
+  header .bar{flex-wrap:wrap;height:auto;padding-top:8px;padding-bottom:0;row-gap:2px}
+  .logo{font-size:34px}
+  .icon-btn{height:38px;min-width:38px;padding:0 11px;font-size:14px}
+  .count{margin-left:5px}
+  nav{display:flex;order:3;width:100%;justify-content:space-between;gap:4px;font-size:16px;white-space:nowrap;overflow-x:auto;padding:0 0 2px}
+  nav a{padding:10px 8px;border-bottom-width:3px;flex:1 0 auto;text-align:center}
+  .hero{padding:20px 0 36px}
+  .hero .wrap{gap:20px}
+  .hero p{margin-bottom:20px}
+  section{padding-top:48px}
+  footer{margin-top:56px}
+  .film-tabs{margin-top:12px}
+}
+@media (max-width:600px){
+  .price{font-size:16px}
+  .price s{font-size:12px}
+  .info{padding:12px 12px 14px}
+  .info h3{font-size:15px}
+  .btn{font-size:16px;padding:11px 24px}
+  .btn.ghost{padding:9px 20px}
+  .look .copy{padding:28px 22px}
+  .items{padding:14px 12px;gap:8px}
+  .item:nth-child(2),.item:nth-child(3){margin-top:0}
+  .item .tag{white-space:normal;line-height:1.25;border-radius:10px;padding:3px 6px;font-size:11px;left:5px;right:5px;bottom:5px;text-align:center}
+  .perk{padding:18px}
+}
+@media (max-width:600px){
+  header .bar{gap:8px}
+  .logo{font-size:30px}
+  .tools{gap:6px}
+  .icon-btn{height:36px;min-width:36px;padding:0 9px;font-size:13px}
+  .count{min-width:18px;height:18px;line-height:18px;margin-left:4px}
+}
 </style>
 </head>
 <body>
